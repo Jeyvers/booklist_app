@@ -58,10 +58,7 @@ class UI {
       }
     }
     
-
-
 // Store Class: Takes Care of Storage
-
 class Store {
     static getBooks(){
         let books;
@@ -129,17 +126,10 @@ document.querySelector('#book-form').addEventListener('submit', (e) => {
     // Show succes message
     UI.showAlert('Book Added', 'success')
     // Clear fields    
-    UI.clearFields();
-    
-   
-
-        
-            
+    UI.clearFields();              
     }
 
 });
-
-
 
 //Create new td trial
 // const td = document.createElement('td');
@@ -158,8 +148,6 @@ document.querySelector('#book-list').addEventListener('click', (e) => {
     UI.showAlert('Book Deleted', 'success')
 
 });
-
-
 
 
 //Trial
